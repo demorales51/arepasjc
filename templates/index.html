@@ -1,0 +1,121 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "{% static 'css/style.css' %}">
+    <title>Index Arepas JC</title>
+</head>
+
+<body>
+
+
+
+
+    <header class=" header d-flex justify-content-between align-items-center  ">
+
+
+        <img src="{% static 'img/logojcpr.jpg' %}" alt="logojc" id="logojcr">
+
+        
+    </header>
+
+
+
+    <nav>
+        <!-- NAV: MENÚ DE NAVEGACIÓN -->
+        <a href="#titulo">Inicio</a>
+        <a href="#footer">Domicilios</a>
+        <a href="{% static 'img/qs2.jpg' %}">Nosotros</a>
+        <a href="{% url 'registro' %}">Registrate</a>
+        <a href="{% url 'contacto' %}">Contacto</a>
+        <a href="{% url 'login' %}">Ingresa</a>
+    </nav>
+
+
+    <div class="titulo" id="titulo">
+        <H2>NUESTROS PRODUCTOS</H2>
+    </div>
+    <div class="contenedor">
+
+        <article class="column1">
+            <h3>Desayunos</h3>
+            <br>
+            <br>
+            <img src="{% static 'img/desayuno.gif' %}" alt="imagen de producto" title="Huevos Rancheros" width="90%">
+            <h4>Para iniciar bien el dia</h4>
+            <br>
+            <a class="im1" href="{% url 'productos' %}""> Ver </a>
+        </article>
+
+        <article class=" column2">
+                <h3>Arepas</h3>
+                <br>
+                <br>
+                <img src="{% static 'img/gifjc.gif' %}" alt="imagen de producto" title="Arepa Mixta" width="90%">
+                <br>
+                <h4>Calma el antojo</h4>
+                <br>
+                <a class="im2" href="{% url 'productos' %}"> Ver </a>
+        </article>
+
+        <article class="column3">
+            <h3>Carnes</h3>
+            <br>
+            <br>
+            <img src="{% static 'img/carne.gif' %}" alt="imagen de producto" title="Carnes">
+            <h4>100% Carne de res</h4>
+            <br>
+            <a class="im3" href="{% url 'productos' %}"> Ver </a>
+        </article>
+
+        <article class="column4">
+            <h3>Bebidas</h3>
+            <br>
+            <br>
+            <img src="{% static 'img/jugos.gif' %}" alt="imagen de producto" title="Jugos">
+            <h4>Para acompañar</h4>
+            <br>
+            <a class="im3" href="{% url 'productos' %}"> Ver </a>
+        </article>
+
+    </div>
+    </article>
+    </div>
+    <div>
+
+        <div class="footer" id="footer"></div>
+        <footer>
+            <h3>
+                <div>
+                    <p>Domicilios 320 277 43 74</p>
+                    <p>Dirección CR 97 # 20B-54</p>
+                    <p>contactoarepasjc@gmail.com</p>
+                    <p>Siguenos en nuestras redes</p>
+
+                    <br>
+
+                    <div>
+                        <a href="https://web.facebook.com/arepasjc"><img src="{% static 'img/facebook.png' %}"></a>
+                        <a href="https://www.instagram.com/jcarepas/"><img src="{% static 'img/instagram.png' %}" alt=""></a>
+                        <a href="{% static 'img/JCarepas.jpg' %}"><img src="{% static 'img/whatsapp.png' %}" alt=""></a>
+                    </div>
+
+                    <img src="{% static 'img/logo.png' %}" id="restmanlogo">
+                    <div>Restmansoft</div>
+                    <div>Todos los derechos reservados</div>
+                    <div>GAES - 4 Programación de Software</div>
+                </div>
+            </h3>
+            <br>
+
+
+    </div>
+    </footer>
+</body>
+
+</html>

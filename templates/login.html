@@ -1,0 +1,75 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+
+        <img src="{% static 'img/logojcpr.jpg' %}" alt="" Restmansoft>
+
+    </header>
+
+
+    <div class="ingreso col-sm-5">
+        
+        <form method="post">
+            {% csrf_token %}
+            
+
+            <input type="text" name="username" placeholder="username">
+            <input type="password" name="password" placeholder="password">
+
+            <br><br>
+
+            <form action="">
+                <button type="submit">Ingresar</button>
+            </form> 
+            
+            <form action="{% url 'dashboardAdmin' %}">
+                <button type="submit">Ingresar Admin</button>
+            </form>
+
+            <form action="{% url 'dashboardCliente' %}">
+                <button type="submit">Ingresar Cliente</button>
+            </form>
+
+
+        </form>
+
+
+
+    </div>
+
+
+
+    <footer>
+        <h3>
+            <div>
+                <p>Domicilios 320 277 43 74</p>
+                <p>Dirección CR 97 # 20B-54</p>
+                <p>Siguenos en nuestras redes</p>
+
+                <br>
+
+                <div>
+                    <a href="https://web.facebook.com/arepasjc"><img src="{% static 'img/facebook.png' %}"></a>
+                    <a href="https://www.instagram.com/jcarepas/"><img src="{% static 'img/instagram.png' %}"
+                            alt=""></a>
+                    <a href="img/JCarepas.jpg"><img src="{% static 'img/whatsapp.png' %}" alt=""></a>
+                </div>
+
+                <img src="{% static 'img/logo.png' %}" id="restmanlogo">
+                <div>Restmansoft</div>
+                <div>Todos los derechos reservados</div>
+                <div>GAES - 4 Programación de Software</div>
+            </div>
+
+</body>
