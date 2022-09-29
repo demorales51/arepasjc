@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+header {
+    background: #b67622;
+
+    padding: 5px 0;
+    box-shadow: 0 3px 10px #073B4C;
+    justify-content: center;
+
+
+}
+
+.header img {
+
+    width: 9%;
+    padding: 10px 0;
+    margin: auto;
+
+}
+
+.nav {
+    background: #b67622;
+    ;
+    padding-left: 1.2vw;
+    border-right: 2px solid #d73f03;
+
+}
+
+ul li {
+    list-style: none;
+
+}
+
+.nav h4 {
+    text-align: center;
+    padding-top: 2vw;
+
+}
+
+.margenFormulario {
+    margin-top: 50px;
+
+}
+
+.rol {
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.rol>img {
+    width: 40%;
+    border-radius: 45%;
+    border: 4px solid #fff;
+}
+
+.rol>h4 {
+    color: #CAF0F8;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.rol>h5 {
+    color: #CAF0F8;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+
+}
+
+ul li a:hover {
+    background: rgba(230, 50, 70, 0.5);
+    border-left: 3px solid #fca208;
+
+}
+
+footer {
+
+    background: #b67622;
+    text-align: center;
+    color: #CAF0F8;
+    padding: 20px 0;
+
+
+}
+
+h3 {
+    color: #be6008;
+
+    padding-bottom: 20px;
+}
+
+.Salir {
+    color: #CAF0F8;
+}
+
+#mediop {
+    width: 30%;
+}
+
+#reserv {
+    width:
+        70%;
+}
+
+
+
+#restmanlogo {
+
+    width: 5%;
+
+}
+
+.contenedor {
+
+    /* grid-template-columns: repeat(3, 1fr); Funciona para indicar la candidad
+    de columnas, en este caso se solicitan de columnas de 1 fracción
+    
+    gap: hace el espaciado entre las columnas
+    */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: space-between;    
+    
+}
+
+#hrc{
+
+width: 100%;
+
+
+}
+

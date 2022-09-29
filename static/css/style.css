@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Indie+Flower&display=swap');
+
+*{
+	margin: 0;
+}
+
+
+
+header{
+    background: #b67622;
+	color: rgb(255, 255, 255);
+	padding: 10px 15px 15px;
+    font-size: 5vw;
+    display: flex;
+    justify-content:center
+    
+    
+}
+
+header img{
+    width: 15%;
+    margin-left: 1vw;
+    display: flex;
+    justify-content: center;
+    }
+
+nav{
+	background: rgb(40,1,50);
+    padding: 1vw 1vw;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+background-color: red;
+color: azure; 
+padding-left: 3vw;
+padding-right: 3vw;
+padding-top: 1vw;
+padding-bottom: 1vw;
+border-top-left-radius: 1vw;
+border-top-right-radius: 1vw;
+font-family: 'Cormorant Garamond', serif;
+text-decoration: none;
+}
+
+nav a:hover{
+	color: rgb(40,1,50);
+    background-color: darkred;
+    font-size: 110%;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+main{
+    flex-wrap: wrap;
+    background-image: url(../img/Arepa3.jpg);
+    background-size: 100% 100%;
+    padding: 30% 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+}
+
+main img{
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+main P{
+    font-size: 5vw;
+    font-family: 'Cormorant Garamond', serif;   
+}
+
+h2{
+background-color: rgb(40,1,50);
+color: azure; 
+padding-left: 3vw;
+padding-right: 3vw;
+padding-top: 1vw;
+padding-bottom: 1vw;
+text-align: center;
+text-decoration: none;
+font-family: 'Cormorant Garamond', serif;
+}
+
+.boton_1{
+    background: rgb(29, 4, 253);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 10px 8px; 
+    border-radius: 12px;
+    text-decoration: none;
+ }
+
+.boton_2{
+    background: rgb(29, 4, 253);
+    color: rgb(255, 255, 255);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px; 
+    padding: 10px 8px;  
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.boton_1:hover{
+    color: rgb(255, 0, 0);
+    font-size: 200%;
+}
+
+.boton_2:hover{
+    color: rgb(255, 0, 0);
+    font-size: 200%;
+}
+
+.contenedor{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+article{
+    width: 25%;
+    margin: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+.column1{
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border:2px solid rgb(0, 0, 0);
+    background: #b67622;
+    font-family: 'Cormorant Garamond', serif;
+}
+.column1:hover{
+    background-color: rgb(34, 34, 34);
+}
+
+.column2{
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border:2px solid rgb(0, 0, 0);
+    background: #b67622;
+    font-family: 'Cormorant Garamond', serif;
+}
+.column2:hover{
+    background-color: rgb(34, 34, 34);
+}
+
+.column3{
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border:2px solid rgb(0, 0, 0);
+    background: #b67622;
+    font-family: 'Cormorant Garamond', serif;
+}
+.column3:hover{
+    background-color: rgb(34, 34, 34);
+}
+
+.column4{
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border:2px solid rgb(0, 0, 0);
+    background: #b67622;
+    font-family: 'Cormorant Garamond', serif;
+}
+.column4:hover{
+    background-color: rgb(34, 34, 34);
+}
+
+.column5{
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border:2px solid rgb(0, 0, 0);
+    background-color: rgb(3, 123, 170);
+    font-family: 'Cormorant Garamond', serif;
+}
+.column5:hover{
+    background-color: rgb(34, 34, 34);
+}
+
+article img{
+    height: 20vw;
+    background: #b67622;
+   
+}
+
+.im1{
+    background: rgb(8, 8, 8);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    padding: 10px 8px; 
+    border-radius: 12px;
+    text-decoration: none;
+ }
+.im1:hover{
+    color: rgb(255, 238, 0);
+    font-size: 200%;
+}
+
+.im2{
+    background: rgb(8, 8, 8);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    padding: 10px 8px; 
+    border-radius: 12px;
+    text-decoration: none;
+ }
+.im2:hover{
+    color: rgb(255, 238, 0);
+    font-size: 200%;
+}
+
+.im3{
+    background: rgb(8, 8, 8);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    padding: 10px 8px; 
+    border-radius: 12px;
+    text-decoration: none;
+ }
+.im3:hover{
+    color: rgb(255, 238, 0);
+    font-size: 200%;
+}
+
+
+footer {
+    text-align: center;
+    background: #b67622;
+    border-color: black;
+    border: 3px solid black;
+    border-bottom-left-radius: 15px;
+    margin: 25px;
+    padding: 20px;
+    
+}
+
+#restmanlogo{
+
+width: 5%;
+
+}
+
+#registrarse{
+
+    justify-content: right;
+}
+
+.ingreso{
+
+    text-align: center;
+    background: #b67622;
+    border-color: black;
+    border: 3px solid black;
+    
+    margin: 50px;
+    padding: 50px; 
+    align-items: center;
+
+
+}
